@@ -11,3 +11,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* can put my CSS in app.css or index.css
+if I want certains styles to affect the whole page we can put them in here
+if it's more specific then you can have it inside a component with its JS file */
