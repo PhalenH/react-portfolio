@@ -1,4 +1,4 @@
-body {
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,8 +10,252 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+} */
+
+:root {
+  --main-bg: #003049;
+  --main-text: #d62828;
+  --section-bg: #eae2b7;
+}
+html,
+body {
+  background: var(--main-bg);
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+/* #greeting {
+  animation: fadeInAnimation ease 5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+#who-i-am {
+  animation: fadeInAnimation ease 5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+} */
+* {
+  box-sizing: border-box;
+  /* By adding box-sizing:border-box; to the CSS for section, each section will maintain 100% width inclusive of the applied padding. */
+}
+h1 {
+  font-size: 5em;
 }
 
+.nav-container {
+  color: var(--section-bg);
+  font-size: 2em;
+  font-weight: 500;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 15px;
+}
+.welcome-container {
+  color: var(--main-text);
+  /* background: violet; */
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.welcome-container p {
+  font-size: 2em;
+}
+
+.contact-container {
+  background-color: red;
+}
+
+/* ============================================ */
+
+.info-container {
+  /* background-color: var(--section-bg); */
+  margin: 100px 50px;
+  color: var(--section-bg);
+}
+.info-container h1 {
+  border-bottom: 1px solid;
+  text-align: center;
+}
+.about-me-container {
+  margin: 50px 25px;
+  /* display: flex;
+  /* flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between; */
+  color: var(--section-bg);
+}
+.about-me-container p {
+  /* width: 50%; */
+  line-height: 2em;
+}
+.about-me-container img {
+  max-width: 100%;
+  height: auto;
+  margin-left: 1em;
+  margin-bottom: 1em;
+  border-radius: 2em;
+}
+.bio-image-container {
+  float: right;
+  height: auto;
+}
+/* ============================================ */
+
+.project-container {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: var(--main-text);
+  margin: 300px 0px;
+}
+.project-container h1 {
+  padding-bottom: 10px;
+  border-bottom: 1px solid;
+}
+
+/* ============================================ */
+
+.project-card {
+  /* display: flex; */
+  justify-content: space-evenly;
+  width: 100% !important ;
+  margin: 100px 25px;
+  /* height: 50%; */
+}
+.outer-image-container {
+  width: 50%;
+}
+.project-card img {
+  height: auto;
+  border-radius: 1em;
+}
+.project-info-right {
+  width: 33%;
+  text-align: left;
+}
+.project-info-left {
+  width: 33%;
+  text-align: right;
+}
+.float-left {
+  /* transform: translateX(-75px); */
+  display: flex;
+}
+.float-right {
+  /* transform: translateX(75px); */
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+/* ============================================ */
+/* .project-info {
+} */
+.btn {
+  background-color: var(--section-bg);
+  border: none;
+  margin: 0px 10px;
+}
+.btn:hover {
+  background-color: var(--main-text);
+  color: var(--section-bg);
+}
+.card-img-top {
+  border: 3px solid var(--section-bg);
+}
+
+#contact {
+  padding-bottom: 25px;
+}
+.icon-text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.icon-text-container:hover {
+  transform: scale(1.15, 1.15);
+}
+
+.contact-me {
+  color: var(--section-bg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top: 1px solid var(--section-bg);
+  padding-top: 25px;
+  text-align: center;
+}
+#email-me {
+  border: 3px solid var(--section-bg);
+  background-color: var(--main-text);
+  border-radius: 1em;
+  padding: 10px;
+}
+#email-me:hover {
+  transform: scale(1.15, 1.15);
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+  color: var(--border-text);
+}
+
+@media screen and (max-width: 992px) {
+  .small-left {
+    float: left;
+    margin-right: 1em;
+  }
+  .small-right {
+    float: right;
+    margin-left: 1em;
+  }
+  .project-card {
+    display: inline;
+  }
+  .project-info-left {
+    display: inline;
+  }
+  .project-info-right {
+    display: inline;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .bio-image-container {
+    width: 100%;
+  }
+  .about-me-container {
+    text-align: center;
+  }
+  .outer-image-container {
+    width: 100%;
+    margin-bottom: 1em;
+  }
+  .project-info-right {
+    text-align: center;
+  }
+  .project-info-left {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 576px) {
+}
 /* can put my CSS in app.css or index.css
 if I want certains styles to affect the whole page we can put them in here
 if it's more specific then you can have it inside a component with its JS file */
