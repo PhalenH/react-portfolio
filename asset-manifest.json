@@ -1,16 +1,22 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.24b7b064.css",
-    "main.js": "/react-portfolio/static/js/main.755b2fc8.js",
+    "main.css": "/react-portfolio/static/css/main.f48ddac5.css",
+    "main.js": "/react-portfolio/static/js/main.dafa0caa.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/finished-homepage.png": "/react-portfolio/static/media/finished-homepage.c20b29660afc9b039f6f.png",
+    "static/media/portfolio-screenshot.png": "/react-portfolio/static/media/portfolio-screenshot.2aefa73038d039bdc7f8.png",
+    "static/media/maze-runner-screenshot.png": "/react-portfolio/static/media/maze-runner-screenshot.0d27d7795c88858b0200.png",
+    "static/media/weather-dashboard.png": "/react-portfolio/static/media/weather-dashboard.ceb7a34eec902ee908f7.png",
+    "static/media/Resume.pdf": "/react-portfolio/static/media/Resume.8f9181d90f8a7394dc0c.pdf",
+    "static/media/tech-blog.png": "/react-portfolio/static/media/tech-blog.262403f4ac3bc7f252f5.png",
     "static/media/zion-views.jpg": "/react-portfolio/static/media/zion-views.62e26d31ce38b4069bdf.jpg",
     "index.html": "/react-portfolio/index.html",
-    "main.24b7b064.css.map": "/react-portfolio/static/css/main.24b7b064.css.map",
-    "main.755b2fc8.js.map": "/react-portfolio/static/js/main.755b2fc8.js.map",
+    "main.f48ddac5.css.map": "/react-portfolio/static/css/main.f48ddac5.css.map",
+    "main.dafa0caa.js.map": "/react-portfolio/static/js/main.dafa0caa.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.24b7b064.css",
-    "static/js/main.755b2fc8.js"
+    "static/css/main.f48ddac5.css",
+    "static/js/main.dafa0caa.js"
   ]
 }
