@@ -1,14 +1,43 @@
 import React from "react";
 
-export default function Nav({ setCurrentPage }) {
+// TODO: add style for nav link active vs nav-anchor
+
+export default function Nav({ currentPage, setCurrentPage }) {
   return (
-    <nav>
-      <div className="nav-container">
-        <h2 onClick={() => setCurrentPage("AboutMe")}>About Me</h2>
-        <h2 onClick={() => setCurrentPage("Projects")}>Projects</h2>
-        <h2 onClick={() => setCurrentPage("Contact")}>Contact</h2>
-        <h2 onClick={() => setCurrentPage("Resume")}>Resume</h2>
-      </div>
-    </nav>
-  );
+  <nav>
+    <div className="nav-container">
+      <a
+        href="#1"
+        onClick={() => setCurrentPage("AboutMe")}
+        id={currentPage === "AboutMe" ? "active-page" : "nav-anchor"}
+      >
+        About Me
+      </a>
+
+      <a
+        href="#1"
+        onClick={() => setCurrentPage("Projects")}
+        id={currentPage === "Projects" ? "active-page" : "nav-anchor"}
+      >
+        Projects
+      </a>
+
+      <a
+        href="#1"
+        onClick={() => setCurrentPage("Contact")}
+        id={currentPage === "Contact" ? "active-page" : "nav-anchor"}
+      >
+        Contact
+      </a>
+
+      <a
+        href="#1"
+        onClick={() => setCurrentPage("Resume")}
+       id={currentPage === "Resume" ? "active-page" : "nav-anchor"}
+      >
+        Resume
+      </a>
+    </div>
+  </nav>
+  )
 }

@@ -1,8 +1,8 @@
 import React from "react";
 
-
 export default function AboutMe() {
   return (
+    <>
     <section className="info-container" id="info">
       <h1>The Man Behind The Monitor</h1>
       <div className="about-me-container">
@@ -10,8 +10,7 @@ export default function AboutMe() {
           <img
             className="selfie"
             alt="Phalen at zion National Park"
-            // Why ido i have to require the image?
-            src={require("../assets/zion-views.jpg")}
+            src={require('../../assets/zion-views.jpg')}
           />
         </div>
         <p>
@@ -34,5 +33,6 @@ export default function AboutMe() {
         </p>
       </div>
     </section>
+    </>
   );
 }

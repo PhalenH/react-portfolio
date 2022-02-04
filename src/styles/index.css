@@ -52,6 +52,13 @@ h1 {
   font-size: 5em;
 }
 
+#active-page {
+  color: var(--main-text);
+}
+#nav-anchor {
+  color: var(--section-bg);
+}
+
 .nav-container {
   color: var(--section-bg);
   font-size: 2em;

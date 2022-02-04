@@ -1,16 +1,9 @@
-import React, { useState } from "react";
-import "./App.css";
-import Nav from "./components/Nav";
-import PageDisplay from "./components/PageDisplay";
+import React from "react";
+import "./styles/App.css";
+import PortfolioContainer from "./components/PortfolioContainer";
 
 function App() {
-  const [currentPage, setCurrentPage] = useState("AboutMe");
-  return (
-    <div>
-      <Nav currentPage={currentPage} setCurrentPage={setCurrentPage}/>
-      <PageDisplay currentPage={currentPage} setCurrentPage={setCurrentPage}/>
-    </div>
-  );
+  return <PortfolioContainer />
 }
 
 export default App;
