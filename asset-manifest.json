@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.f48ddac5.css",
-    "main.js": "/react-portfolio/static/js/main.dafa0caa.js",
+    "main.css": "/react-portfolio/static/css/main.7be2db0f.css",
+    "main.js": "/react-portfolio/static/js/main.8aa8b422.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/finished-homepage.png": "/react-portfolio/static/media/finished-homepage.c20b29660afc9b039f6f.png",
     "static/media/portfolio-screenshot.png": "/react-portfolio/static/media/portfolio-screenshot.2aefa73038d039bdc7f8.png",
@@ -11,12 +11,12 @@
     "static/media/tech-blog.png": "/react-portfolio/static/media/tech-blog.262403f4ac3bc7f252f5.png",
     "static/media/zion-views.jpg": "/react-portfolio/static/media/zion-views.62e26d31ce38b4069bdf.jpg",
     "index.html": "/react-portfolio/index.html",
-    "main.f48ddac5.css.map": "/react-portfolio/static/css/main.f48ddac5.css.map",
-    "main.dafa0caa.js.map": "/react-portfolio/static/js/main.dafa0caa.js.map",
+    "main.7be2db0f.css.map": "/react-portfolio/static/css/main.7be2db0f.css.map",
+    "main.8aa8b422.js.map": "/react-portfolio/static/js/main.8aa8b422.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f48ddac5.css",
-    "static/js/main.dafa0caa.js"
+    "static/css/main.7be2db0f.css",
+    "static/js/main.8aa8b422.js"
   ]
 }
