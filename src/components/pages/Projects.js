@@ -49,7 +49,7 @@ export default function Projects() {
     <section className="project-container">
       <h1 id="projects">My work</h1>
       {projectCards.map((project) => (
-        <div key={project.id} className="project-card float-left">
+        <div key={project.id} className="project-card">
           <div className="outer-image-container small-left">
             <img
               src={require(`../../assets/${project.src}.png`)}

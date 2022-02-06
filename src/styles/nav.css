@@ -1,5 +1,5 @@
 #active-page {
-    color: var(--main-text);
+    color: var(--main-bg);
   }
   #nav-anchor {
     color: var(--section-bg);
@@ -7,9 +7,20 @@
   
   .nav-container {
     color: var(--section-bg);
-    font-size: 2em;
+    font-size: 30px;
     font-weight: 500;
     display: flex;
-    justify-content: space-evenly;
-    padding: 15px;
+    justify-content: space-around;
+    /* padding: 15px; */
+    background-color: var(--main-text);
+    border-radius: 10px;
+    align-items: center;
+  }
+  .navName {
+    font-size: 50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+  }
+  .line {
+    border-left: 6px solid black;
+  height:75px;
   }

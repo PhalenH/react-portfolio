@@ -5,6 +5,8 @@ export default function Nav({ currentPage, setCurrentPage }) {
   return (
   <nav>
     <div className="nav-container">
+      <h1 className="navName">Phalen Hazel</h1>
+      <div className="line"></div>
       <a
         href="#1"
         onClick={() => setCurrentPage("AboutMe")}

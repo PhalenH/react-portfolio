@@ -6,12 +6,14 @@ export default function Resume() {
   return (
     <div className="resume-container">
       <h2>Resume</h2>
-      <a href= {Pdf} target="_blank">
-          <p id="icon-text">View my Resume</p>
+      <div className="resume-anchor">
+      <a  href= {Pdf} target="_blank">
+          <p id="resume-text">View my Resume</p>
       </a>
-      <ul>
+      </div>
+      <ul className="list-items">
         {" "}
-        Front-end Proficiencies
+        <h3>Front-end Proficiencies</h3>
         <li>HTML</li>
         <li>CSS</li>
         <li>JacaScript</li>
@@ -19,9 +21,9 @@ export default function Resume() {
         <li>jQuery</li>
         <li>React</li>
       </ul>
-      <ul>
+      <ul className="list-items">
         {" "}
-        Front-end Proficiencies
+        <h3>Front-end Proficiencies</h3>
         <li>Node</li>
         <li>Express</li>
         <li>MySQL</li>

@@ -1,3 +1,38 @@
 .resume-container {
-    background-color: thistle;
+  /* background-color: thistle; */
+  margin: 2em;
+  padding: 1em;
+  font-size: 20px;
+}
+.list-items {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  background-color: var(--section-bg);
+  border-radius: 15px;
+  padding: 1em 2em;
+  color: var(--main-bg);
+}
+h2 {
+  color: var(--main-text);
+}
+h3 {
+  font-size: 25px;
+}
+.resume-anchor {
+  background-color: var(--section-bg);
+  padding-top: 10px;
+  margin: 1em 0em;
+  display: flex;
+  width: 200px;
+  justify-content: center;
+  border-radius: 10px;
+  border: 5px solid var(--main-text);
+  color: var(--main-bg);
+  font-weight: bolder;
+  opacity: 75%;
+}
+.resume-anchor:hover {
+    transform: scale(1.05, 1.05);
+    opacity: 100%;
 }

@@ -23,7 +23,7 @@ export default function Contact() {
       setEmail(inputValue);
       const isValid = validateEmail(inputValue);
       if (!isValid) {
-        setErrorMessage("Your email is invalid.");
+        setErrorMessage("Your email is invalid!");
       } else {
         setErrorMessage("");
         setEmail(inputValue);
@@ -31,7 +31,7 @@ export default function Contact() {
     } else if (inputType === "name") {
       if (!inputValue.length) {
         setName(inputValue);
-        setErrorMessage(`${inputType} is required.`);
+        setErrorMessage(`${inputType} is required!`);
       } else {
         setErrorMessage("");
         setName(inputValue);
@@ -39,7 +39,7 @@ export default function Contact() {
     } else if (inputType === "message") {
       if (!inputValue.length) {
         setMessage(inputValue);
-        setErrorMessage(`${inputType} is required.`);
+        setErrorMessage(`${inputType} is required!`);
       } else {
         setErrorMessage("");
         setMessage(inputValue);
@@ -98,15 +98,15 @@ export default function Contact() {
           ></textarea>
           <br></br>
         </div>
-        <button type="button" onClick={handleFormSubmit}>
-          Submit
-        </button>
-      </form>
-      {errorMessage && (
+        {errorMessage && (
         <div>
           <p className="error-text">{errorMessage}</p>
         </div>
       )}
+        <button type="button" onClick={handleFormSubmit}>
+          Submit
+        </button>
+      </form>
     </div>
   );
 }
