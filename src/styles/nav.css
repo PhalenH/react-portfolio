@@ -1,0 +1,15 @@
+#active-page {
+    color: var(--main-text);
+  }
+  #nav-anchor {
+    color: var(--section-bg);
+  }
+  
+  .nav-container {
+    color: var(--section-bg);
+    font-size: 2em;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+  }

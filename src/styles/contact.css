@@ -1,0 +1,28 @@
+.contact-me-container {
+  background-color:thistle;
+  display: flex;
+  flex-direction: column;
+  margin: 2em;
+}
+
+.input-container {
+  margin: 1em;
+}
+input {
+  width: 500px;
+  margin-top: 5px;
+  height: 25px;
+  border-radius: 5px;
+}
+textarea {
+  width: 500px;
+  height: 100px;
+  margin-top: 5px;
+  border-radius: 5px;
+}
+
+button {
+  border-radius: 10px;
+  width: 80px;
+  height: 40px;
+}

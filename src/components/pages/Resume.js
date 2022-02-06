@@ -1,25 +1,34 @@
 import React from "react";
-import resume from "../../assets/Resume.pdf"
-
-const styles = {
-    resumeContainer: {
-     display: "flex",
-     justifyContent:"center",
-     marginTop: 100
-    }
-  };
+import "../../styles/resume.css"
+import Pdf from "../../assets/Resume.pdf";
 
 export default function Resume() {
   return (
-      <div style={styles.resumeContainer}>
-    <object
-      data={resume}
-      type="application/pdf"
-      width="400"
-      height="1000"
-    >
-      <a href="https://phalenh.github.io/phalen-portfolio/assets/Resume.pdf">test.pdf</a>
-    </object>
+    <div className="resume-container">
+      <h2>Resume</h2>
+      <a href= {Pdf} target="_blank">
+          <p id="icon-text">View my Resume</p>
+      </a>
+      <ul>
+        {" "}
+        Front-end Proficiencies
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JacaScript</li>
+        <li>Boostrap</li>
+        <li>jQuery</li>
+        <li>React</li>
+      </ul>
+      <ul>
+        {" "}
+        Front-end Proficiencies
+        <li>Node</li>
+        <li>Express</li>
+        <li>MySQL</li>
+        <li>MongoDB</li>
+        <li>REST</li>
+        <li>APIs</li>
+      </ul>
     </div>
   );
 }

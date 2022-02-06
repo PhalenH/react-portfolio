@@ -1,6 +1,5 @@
 import React from "react";
-
-// TODO: add style for nav link active vs nav-anchor
+import "../styles/nav.css"
 
 export default function Nav({ currentPage, setCurrentPage }) {
   return (

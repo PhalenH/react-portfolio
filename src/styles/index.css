@@ -52,14 +52,7 @@ h1 {
   font-size: 5em;
 }
 
-#active-page {
-  color: var(--main-text);
-}
-#nav-anchor {
-  color: var(--section-bg);
-}
-
-.nav-container {
+.footer-container {
   color: var(--section-bg);
   font-size: 2em;
   font-weight: 500;
@@ -120,56 +113,8 @@ h1 {
 }
 /* ============================================ */
 
-.project-container {
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  color: var(--main-text);
-  margin: 300px 0px;
-}
-.project-container h1 {
-  padding-bottom: 10px;
-  border-bottom: 1px solid;
-}
 
 /* ============================================ */
-
-.project-card {
-  /* display: flex; */
-  justify-content: space-evenly;
-  width: 100% !important ;
-  margin: 100px 25px;
-  /* height: 50%; */
-}
-.outer-image-container {
-  width: 50%;
-}
-.project-card img {
-  height: auto;
-  border-radius: 1em;
-}
-.project-info-right {
-  width: 33%;
-  text-align: left;
-}
-.project-info-left {
-  width: 33%;
-  text-align: right;
-}
-.float-left {
-  /* transform: translateX(-75px); */
-  display: flex;
-}
-.float-right {
-  /* transform: translateX(75px); */
-  display: flex;
-  flex-direction: row-reverse;
-}
-
-/* ============================================ */
-/* .project-info {
-} */
 .btn {
   background-color: var(--section-bg);
   border: none;
