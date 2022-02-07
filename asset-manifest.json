@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.35f48a0f.css",
-    "main.js": "/react-portfolio/static/js/main.774c0b38.js",
+    "main.js": "/react-portfolio/static/js/main.6914967f.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/finished-homepage.png": "/react-portfolio/static/media/finished-homepage.c20b29660afc9b039f6f.png",
-    "static/media/portfolio-screenshot.png": "/react-portfolio/static/media/portfolio-screenshot.2aefa73038d039bdc7f8.png",
+    "static/media/react-portfolio-screenshot.png": "/react-portfolio/static/media/react-portfolio-screenshot.33d16ab65c6f3738f4f8.png",
     "static/media/maze-runner-screenshot.png": "/react-portfolio/static/media/maze-runner-screenshot.0d27d7795c88858b0200.png",
     "static/media/weather-dashboard.png": "/react-portfolio/static/media/weather-dashboard.ceb7a34eec902ee908f7.png",
     "static/media/Resume.pdf": "/react-portfolio/static/media/Resume.8f9181d90f8a7394dc0c.pdf",
@@ -12,11 +12,11 @@
     "static/media/zion-views.jpg": "/react-portfolio/static/media/zion-views.62e26d31ce38b4069bdf.jpg",
     "index.html": "/react-portfolio/index.html",
     "main.35f48a0f.css.map": "/react-portfolio/static/css/main.35f48a0f.css.map",
-    "main.774c0b38.js.map": "/react-portfolio/static/js/main.774c0b38.js.map",
+    "main.6914967f.js.map": "/react-portfolio/static/js/main.6914967f.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.35f48a0f.css",
-    "static/js/main.774c0b38.js"
+    "static/js/main.6914967f.js"
   ]
 }
